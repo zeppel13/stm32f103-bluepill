@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "sebuspill-rescue")(type "Legacy")(uri "${KIPRJMOD}/sebuspill-rescue.lib")(options "")(descr ""))
+)
