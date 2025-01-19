@@ -8,3 +8,7 @@ I am designing a simple (yet another) stm32 devboard to learn how to use KiCad a
 ![screenshot_1726694248](https://github.com/user-attachments/assets/96cd7314-0e7c-44ab-a03c-a56d2d821ed3)
 
 ![screenshot_1726694252](https://github.com/user-attachments/assets/f730eb22-93fc-4c08-8184-211b553492ba)
+
+Errata:
+
+- BOOTP header in silkscreen should be BOOT0 I have confused the techno-blabla of Cortex boot modes with DHCP/BOOTP and didn't realize until after production of my samples
