@@ -8,17 +8,6 @@ For the programming
     
 works fine for me
 
-![top](https://github.com/user-attachments/assets/e19aae01-03c7-4d29-b51e-54648cb7e8de)
-![stm32_board.jpg](https://github.com/zeppel13/stm32f103-bluepill/blob/main/stm32_board.jpg)
-
-![screenshot_1726694269](https://github.com/user-attachments/assets/e5d516eb-f842-4bdd-8c65-febf3918eaec)
-
-
-![screenshot_1726694248](https://github.com/user-attachments/assets/96cd7314-0e7c-44ab-a03c-a56d2d821ed3)
-
-![screenshot_1726694252](https://github.com/user-attachments/assets/f730eb22-93fc-4c08-8184-211b553492ba)
-
-
 ### Goals of the Project
 ✅ **Learn to use KiCAD**  
 ✅ Complete all necessary steps to manufacture the board and proceed with prototypes  
@@ -40,3 +29,16 @@ works fine for me
 ### Errata
 - The **BOOTP** header in the silkscreen should be **BOOT0**. I confused the technical jargon of Cortex boot modes with DHCP/BOOTP and didn’t realize the mistake until after producing the samples.  
 - The SMD switch for BOOT0 was replaced with a pinout that can be configured with jumpers (HI/LOW).  
+
+
+![top](https://github.com/user-attachments/assets/e19aae01-03c7-4d29-b51e-54648cb7e8de)
+![stm32_board.jpg](https://github.com/zeppel13/stm32f103-bluepill/blob/main/stm32_board.jpg)
+
+![screenshot_1726694269](https://github.com/user-attachments/assets/e5d516eb-f842-4bdd-8c65-febf3918eaec)
+
+
+![screenshot_1726694248](https://github.com/user-attachments/assets/96cd7314-0e7c-44ab-a03c-a56d2d821ed3)
+
+![screenshot_1726694252](https://github.com/user-attachments/assets/f730eb22-93fc-4c08-8184-211b553492ba)
+
+
