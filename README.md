@@ -4,7 +4,7 @@ MCU is a genuine STM32F103C8T6. I'll upload an STM32CubeIDE project soon, planni
 
 For the programming
 
-    st-util --write firmware.bin 0x08000000 
+    st-flash write firmware.bin 0x08000000 
     
 works fine for me
 
