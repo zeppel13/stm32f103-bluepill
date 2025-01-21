@@ -1,6 +1,10 @@
-I designed a simple stm32 devboard to learn how to use KiCad and design my own PCBs
+I designed a working simple STM32 devboard to learn how to use KiCad and design my own PCBs
 
-MCU is a genuine STM32F103C8T6. I'll upload an STM32CubeIDE project soon, planning to also put an libopenCM3 project here. For the programming you'll need a standard ST-LINK programmer (A fake one might be working just fine)
+MCU is a genuine STM32F103C8T6. I'll upload an STM32CubeIDE project soon, planning to also put an libopenCM3 project here. For the programming you'll need a standard ST-LINK programmer (A fake one might be working just fine). The PCB exposes a programming interface with SWD, CLK, +3V3 and GND and BOOT0 with Breakers. 
+
+For the programming
+  st-util --write firmware.bin 0x08000000 
+works fine for me
 
 ![top](https://github.com/user-attachments/assets/e19aae01-03c7-4d29-b51e-54648cb7e8de)
 ![stm32_board.jpg](https://github.com/zeppel13/stm32f103-bluepill/blob/main/stm32_board.jpg)
@@ -25,7 +29,7 @@ MCU is a genuine STM32F103C8T6. I'll upload an STM32CubeIDE project soon, planni
 ---
 
 ### Non-Goals
-- Using the newest or best features. STM32F103 might seem a bit outdated compared to newer STM32 offerings, but it’s sturdy. A brand-name Micro USB-B connector will be used—no USB-C.  
+- Using the newest or best features. STM32F103 might seem a bit outdated compared to newer STM32 offerings. A brand-name Micro USB-B connector will be used — no USB-C.  
 - Power optimization (e.g., removing LEDs, using a more efficient voltage supply, or selecting a low-power MCU).  
 - Price optimization. The plan is to build a small batch, not large quantities.  
 
