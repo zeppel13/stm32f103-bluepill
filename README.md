@@ -3,7 +3,9 @@ I designed a working simple STM32 devboard to learn how to use KiCad and design 
 MCU is a genuine STM32F103C8T6. I'll upload an STM32CubeIDE project soon, planning to also put an libopenCM3 project here. For the programming you'll need a standard ST-LINK programmer (A fake one might be working just fine). The PCB exposes a programming interface with SWD, CLK, +3V3 and GND and BOOT0 with Breakers. 
 
 For the programming
+
     st-util --write firmware.bin 0x08000000 
+    
 works fine for me
 
 ![top](https://github.com/user-attachments/assets/e19aae01-03c7-4d29-b51e-54648cb7e8de)
